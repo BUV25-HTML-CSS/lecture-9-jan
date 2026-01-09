@@ -10,14 +10,24 @@
     <body>
         <!-- Page Header -->
         <header class="header">
-            <aside class="header__burger-logo">
-                <a href="./checkout.html" class="header__burger-link">
+            <aside class="burger">
+                <!-- <a href="./checkout.html" class="header__burger-link">
                     <img
                         src="./images/navicon.svg"
                         alt="Hamburger button"
                         class="header__burger-img"
                     />
-                </a>
+                </a> -->
+                <input type="checkbox" class="burger__box" id="burgerBox" />
+                <label class="burger__btn" for="burgerBox">
+                    <span></span>
+                </label>
+                <nav class="burger__navigation">
+                    <a href="" class="burger__link">Home</a>
+                    <a href="" class="burger__link">Checkout</a>
+                    <a href="" class="burger__link">Products</a>
+                    <a href="" class="burger__link">Contact</a>
+                </nav>
             </aside>
             <h1 class="header__title">Poster Shop</h1>
             <img
